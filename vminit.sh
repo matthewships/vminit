@@ -4,6 +4,15 @@
 #
 # Supported: Ubuntu, Debian (apt) and Fedora, RHEL, Rocky, Alma, CentOS Stream (dnf)
 #
+# Quick start:
+#   curl -fsSL https://raw.githubusercontent.com/matthewships/vminit/main/vminit.sh | sudo bash
+#
+# Safer (read it first):
+#   curl -fsSL https://raw.githubusercontent.com/matthewships/vminit/main/vminit.sh -o vminit.sh
+#   less vminit.sh
+#   sudo bash vminit.sh
+#
+#
 # All logic lives in main() which is only called on the very last line, so a
 # partially downloaded script can never run half way.
 
